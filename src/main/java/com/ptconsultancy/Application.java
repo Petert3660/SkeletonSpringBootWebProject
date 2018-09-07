@@ -40,7 +40,7 @@ public class Application implements CommandLineRunner {
 
     private void outputMessage() {
         String serverPort = env.getProperty("server.port");
-        System.out.println(BuildVersion.getBuildProjectTitle() + " , Version: " + BuildVersion.getBuildVersion());
+        System.out.println(BuildVersion.getBuildProjectTitle() + ", Version: " + BuildVersion.getBuildVersion());
         System.out.println("************************************************************************");
         System.out.println("* The application is now running on:- localhost:" + serverPort + "                   *");
         System.out.println("************************************************************************");
